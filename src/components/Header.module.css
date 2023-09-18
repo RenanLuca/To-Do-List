@@ -1,0 +1,11 @@
+.headerMain {
+    background: var(--gray-700);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 200px;
+}
+
+.headerLogo {
+    margin: auto;
+}

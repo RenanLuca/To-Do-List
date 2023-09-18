@@ -1,0 +1,97 @@
+.taskWrapper {
+    display: grid;
+    grid-template-columns: 25px 1fr 30px;
+    padding: 1rem;
+    gap: 0.75rem;
+    align-items: flex-start;
+    border-radius: 8px;
+    border: 1px solid var(--gray-400);
+    background: var(--gray-500);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+.radioButton {
+    cursor: pointer;
+}
+
+.radioButton input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+
+.radio {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--blue);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transform: translateZ(-25px);
+    transition: all 0.3s ease-in-out;
+}
+.radio:hover {
+    border-color: var(--blue-dark);
+}
+.radioButton input[type="radio"]:checked + .radio {
+    border-color: var(--purple-dark);
+    transform: translateZ(0px);
+    background: var(--purple-dark);
+    color: var(--purple-dark);
+}
+  
+.radioButton input[type="radio"]:checked + .radio::before {
+    content: '✔';
+    width: 10px;
+    height: 10px;
+    top: 2px;
+    left: 4px;
+    border-radius: 50%;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+}
+
+.radioButton input[type="radio"]:checked + .radio:hover {
+    border-color: var(--purple);
+    background: var(--purple);
+    color: var(--purple);
+}
+.taskContent {
+    color: var(--gray-100, #F2F2F2);
+    font-size: 0.875rem;
+    max-width: 640px;
+    overflow-wrap: break-word;
+}
+
+.taskWrapper button {
+    background: transparent;
+    border: none;
+    color: var(--gray-300);
+    cursor: pointer;
+    transition: padding 0.1s, background-color 0.1s, color 0.1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.taskWrapper button:hover {
+    padding: 0.3125rem;
+    background: var(--gray-400);
+    color: var(--danger);
+    border-radius: 4px;
+}
+
+.taskWrapper + .taskWrapper {
+    margin-top: 0.75rem;
+}
+
+.doneTask {
+    border: 0;
+    text-decoration-line: line-through;
+    text-decoration-color: var(--gray-300);
+}
+
+.doneTask span {
+    color: var(--gray-300);
+}
