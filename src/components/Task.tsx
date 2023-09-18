@@ -1,6 +1,6 @@
 import { Trash } from 'phosphor-react'
 import styles from './Task.module.css'
-import { ButtonHTMLAttributes, ChangeEvent, InputHTMLAttributes, MouseEvent, useState } from 'react'
+import { useState } from 'react'
 
 
 interface TaskProps {
