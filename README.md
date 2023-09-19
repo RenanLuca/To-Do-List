@@ -29,9 +29,14 @@ O projeto representa um desafio no qual tive a oportunidade de aplicar de forma 
 
 Esta aplicação consistiu na criação de uma lista de tarefas (To-Do List), permitindo aprofundar consideravelmente nos conceitos fundamentais do React. Tive a oportunidade de explorar temas essenciais, como componentes, propriedades, estados, e, sobretudo, compreender a importância de uma sólida arquitetura de componentes. Isso se mostrou crucial para garantir que a transmissão de propriedades ocorresse de forma eficiente e sem problemas.
 
+## 🧱 Layout
+<p> <a href="https://ury1.com/C8FxW" target="_blank"> Veja o layout do projeto! </a> </p>
+<br>
+<br>
 ## 🖼 Confira a Demo
+<br>
 <p> <a href="https://to-do-list-delta-ashy.vercel.app" target="_blank"> Confira o site </a> </p>
-
+<br>
 ## 🔧 Como rodar
 
 ### 🗂 Faça um clone do projeto
