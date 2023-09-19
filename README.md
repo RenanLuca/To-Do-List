@@ -1,27 +1,53 @@
-# React + TypeScript + Vite
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/53796755/210010454-032e9f66-4b33-4d2b-921f-9218f2c54670.png" />
+</h1>
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br>
 
-Currently, two official plugins are available:
+<img src="./src/assets/preview.png">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p> <a href="https://to-do-list-delta-ashy.vercel.app"> Confira o site </a> </p>
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Configure the top-level `parserOptions` property like this:
+- [Vite](https://vitejs.dev/)
+- [React JS](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## 💻 Projeto
+
+O projeto representa um desafio no qual tivemos a oportunidade de aplicar de forma prática os conhecimentos adquiridos durante o módulo. Afinal, essa abordagem se revela como a mais eficaz para a validação do nosso aprendizado.
+
+O nosso projeto consistiu na criação de uma lista de tarefas (To-Do List), permitindo-nos aprofundar consideravelmente nos conceitos fundamentais do React. Tivemos a oportunidade de explorar temas essenciais, como componentes, propriedades, estados, e, sobretudo, compreender a importância de uma sólida arquitetura de componentes. Isso se mostrou crucial para garantir que a transmissão de propriedades ocorresse de forma eficiente e sem problemas.
+
+
+## 🔧 Como rodar
+
+### 🗂 Faça um clone do projeto
+
+```bash
+git clone https://github.com/RenanLuca/To-Do-List.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 📥 Instale as dependências
+```bash
+# Acesse o diretório do projeto
+cd to-do-list
+
+# Instale as dependências
+yarn i
+```
+
+### ⚡ Inicie a aplicação
+```bash
+yarn run dev
+```
+
+Me adicione no [LinkedIn](https://www.linkedin.com/in/renanLuca/) :wave:
