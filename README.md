@@ -1,5 +1,5 @@
 <h1 align="center">
- <img src="https://user-images.githubusercontent.com/53796755/210010454-032e9f66-4b33-4d2b-921f-9218f2c54670.png" />
+ <img src="./src/assets/logo.svg" />
 </h1>
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
