@@ -29,7 +29,7 @@ O projeto representa um desafio no qual tivemos a oportunidade de aplicar de for
 O nosso projeto consistiu na criação de uma lista de tarefas (To-Do List), permitindo-nos aprofundar consideravelmente nos conceitos fundamentais do React. Tivemos a oportunidade de explorar temas essenciais, como componentes, propriedades, estados, e, sobretudo, compreender a importância de uma sólida arquitetura de componentes. Isso se mostrou crucial para garantir que a transmissão de propriedades ocorresse de forma eficiente e sem problemas.
 
 ## 🖼 Confira a Demo
-<p> <a href="https://to-do-list-delta-ashy.vercel.app"> Confira o site </a> </p>
+<p> <a href="https://to-do-list-delta-ashy.vercel.app" target="_blank"> Confira o site </a> </p>
 
 ## 🔧 Como rodar
 
