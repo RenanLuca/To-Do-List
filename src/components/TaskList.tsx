@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Task } from './Task'
 import styles from './TaskList.module.css'
+import { ClipboardText } from 'phosphor-react';
 
 interface TaskListProps {
     tasks: string[];
@@ -8,7 +9,6 @@ interface TaskListProps {
 }
 export function TaskList({tasks, onDeleteTask}:TaskListProps) {
     const [doneTasks, setDoneTasks] = useState<string[]>([])
-    
     function checkDoneTask(doneTaskToDelete: string) {
         const doneTasksWithoutDeletedOnde = doneTasks.filter(task =>{
             return task != doneTaskToDelete
@@ -20,7 +20,6 @@ export function TaskList({tasks, onDeleteTask}:TaskListProps) {
     function handleDoneTask(doneTaskContent: string) {
         setDoneTasks([...doneTasks, doneTaskContent])
     }
-
     return(
         <div className={styles.taskList}>
             <header className={styles.headerTaskList}>
@@ -30,9 +29,16 @@ export function TaskList({tasks, onDeleteTask}:TaskListProps) {
                 </div>
                 <div className={styles.completedTasks}>
                     <h2>Concluídas</h2>
-                    <span>{doneTasks.length} de {tasks.length}</span>
+                    <span>
+                        {tasks.length ? `${doneTasks.length} de ${tasks.length}` : tasks.length }
+                    </span>
                 </div>
             </header>
+            <section className={tasks.length ? styles.disabled : styles.emptyTasks }>
+                <ClipboardText size={56} />
+                <b>Você ainda não tem tarefas cadastradas!</b>
+                <span>Crie tarefas e organize seus itens a fazer</span>
+            </section>
             <main className={styles.taskListed}>
                 {tasks.map( task => {
                     return (<Task

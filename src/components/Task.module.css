@@ -95,3 +95,7 @@
 .doneTask span {
     color: var(--gray-300);
 }
+
+.radioButton:has(> input:checked) {
+    cursor: not-allowed;
+}

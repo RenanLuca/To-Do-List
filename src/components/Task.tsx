@@ -22,6 +22,7 @@ export function Task({content, onDeleteTask, onHandleDoneTask, onCheckDoneTask}:
         setDoneTask(true);
         const doneTaskContent: string = event.target.value
         onHandleDoneTask(doneTaskContent);
+        event.target.disabled = true
     }
     return (
         <div className={`${styles.taskWrapper} ${doneTask ? styles.doneTask : ''}`}>

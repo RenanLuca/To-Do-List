@@ -10,7 +10,6 @@ export function App() {
 const [newTaskText, setNewTaskText] = useState('')
 const [tasks, setTasks] = useState <string[]>([])
 
-
 function handleCreateNewTask() {
   setTasks([...tasks, newTaskText])
   setNewTaskText('')
