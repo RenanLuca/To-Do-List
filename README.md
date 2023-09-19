@@ -32,7 +32,6 @@ Esta aplicação consistiu na criação de uma lista de tarefas (To-Do List), pe
 ## 🧱 Layout
 <p> <a href="https://ury1.com/C8FxW" target="_blank"> Veja o layout do projeto! </a> </p>
 <br>
-<br>
 ## 🖼 Confira a Demo
 <br>
 <p> <a href="https://to-do-list-delta-ashy.vercel.app" target="_blank"> Confira o site </a> </p>
