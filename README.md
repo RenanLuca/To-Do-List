@@ -46,7 +46,7 @@ git clone https://github.com/RenanLuca/To-Do-List.git
 cd to-do-list
 
 # Instale as dependências
-yarn i
+yarn 
 ```
 
 ### ⚡ Inicie a aplicação
