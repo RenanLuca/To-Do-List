@@ -25,9 +25,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto representa um desafio no qual tivemos a oportunidade de aplicar de forma prática os conhecimentos adquiridos durante o módulo, assim como realizar a utilização do Figma e efetuar na minha perspectiva o design completamente idêntico á referência. Afinal, essa abordagem se revela como a mais eficaz para a validação do nosso aprendizado.
+O projeto representa um desafio no qual tive a oportunidade de aplicar de forma prática os conhecimentos adquiridos durante o módulo, assim como realizar a utilização do Figma e efetuar na minha perspectiva o design completamente idêntico á referência. Afinal, essa abordagem se revela como a mais eficaz para a validação do aprendizado.
 
-O nosso projeto consistiu na criação de uma lista de tarefas (To-Do List), permitindo-nos aprofundar consideravelmente nos conceitos fundamentais do React. Tivemos a oportunidade de explorar temas essenciais, como componentes, propriedades, estados, e, sobretudo, compreender a importância de uma sólida arquitetura de componentes. Isso se mostrou crucial para garantir que a transmissão de propriedades ocorresse de forma eficiente e sem problemas.
+O projeto consistiu na criação de uma lista de tarefas (To-Do List), permitindo aprofundar consideravelmente nos conceitos fundamentais do React. Tive a oportunidade de explorar temas essenciais, como componentes, propriedades, estados, e, sobretudo, compreender a importância de uma sólida arquitetura de componentes. Isso se mostrou crucial para garantir que a transmissão de propriedades ocorresse de forma eficiente e sem problemas.
 
 ## 🖼 Confira a Demo
 <p> <a href="https://to-do-list-delta-ashy.vercel.app" target="_blank"> Confira o site </a> </p>
